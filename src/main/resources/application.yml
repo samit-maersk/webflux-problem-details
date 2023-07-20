@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: @project.name@
+  mvc:
+    problemdetails:
+      enabled: true
+server:
+  error:
+    include-message: always
